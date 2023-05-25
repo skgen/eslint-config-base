@@ -3,7 +3,7 @@
 ## Install:
 
 ```sh
-yarn add -D @patriarche/eslint-config-base eslint@^8.5.0
+yarn add -D @patriarche/eslint-config-base eslint@^8.0.0
 ```
 
 ```js
