@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "review": "yarn review:eslint",
+    "review:eslint": "eslint src --ext .ts --fix",
+    "link:local": "rm -rf node_modules/@patriarche/eslint-config-base && yarn --check-files"
+  },
+  "devDependencies": {
+    "@patriarche/eslint-config-base": "file:../../.link",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.4"
+  }
+}
