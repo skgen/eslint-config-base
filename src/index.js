@@ -6,11 +6,6 @@ module.exports = {
     'airbnb-base',
     'airbnb-typescript/base',
   ],
-  parserOptions: {
-    project: [
-      'tsconfig.json',
-    ],
-  },
   rules: {
     'no-restricted-syntax': 'off',
     '@typescript-eslint/member-delimiter-style': ['error', {
