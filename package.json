@@ -1,5 +1,5 @@
 {
-  "name": "@patriarche/eslint-config-base",
+  "name": "@skgen/eslint-config-base",
   "license": "MIT",
   "version": "1.0.1",
   "files": [
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "review:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "link:local": "yarn build && rm -rf .link && mkdir .link && cp -r dist .link/dist && cp package.json .link"
+    "link:local": "pnpm build && rm -rf .link && mkdir .link && cp -r dist .link/dist && cp package.json .link"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.28.0",

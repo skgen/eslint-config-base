@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@patriarche/eslint-config-base',
+    '@skgen/eslint-config-base',
   ],
   parserOptions: {
     project: [

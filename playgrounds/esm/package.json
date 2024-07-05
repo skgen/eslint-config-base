@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "review": "yarn review:eslint",
+    "review": "pnpm review:eslint",
     "review:eslint": "eslint src --ext .ts --fix",
-    "link:local": "rm -rf node_modules/@patriarche/eslint-config-base && yarn --check-files"
+    "link:local": "rm -rf node_modules/@skgen/eslint-config-base && pnpm install"
   },
   "devDependencies": {
-    "@patriarche/eslint-config-base": "file:../../.link",
+    "@skgen/eslint-config-base": "file:../../.link",
     "eslint": "^8.0.0",
     "typescript": "^5.0.4"
   }

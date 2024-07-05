@@ -1,9 +1,9 @@
-# `@patriarche/eslint-config-base`
+# `@skgen/eslint-config-base`
 
 ## Install:
 
 ```sh
-yarn add -D @patriarche/eslint-config-base eslint@^8.0.0
+pnpm add -D @skgen/eslint-config-base eslint@^8.0.0
 ```
 
 ```js
@@ -11,7 +11,7 @@ yarn add -D @patriarche/eslint-config-base eslint@^8.0.0
 
 module.exports = {
   extends: [
-    '@patriarche/eslint-config-base',
+    '@skgen/eslint-config-base',
   ],
   parserOptions: {
     project: [
