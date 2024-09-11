@@ -1,7 +1,7 @@
 {
   "name": "@skg3n/eslint-config-base",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "files": [
     "dist"
   ],
