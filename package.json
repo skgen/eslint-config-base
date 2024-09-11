@@ -1,0 +1,33 @@
+{
+  "name": "@skg3n/eslint-config-base",
+  "license": "MIT",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "review:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "link:local": "pnpm build && rm -rf .link && mkdir .link && cp -r dist .link/dist && cp package.json .link"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript": "~5.4.5"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "~5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skgen/eslint-config-base.git"
+  },
+  "homepage": "https://github.com/skgen/eslint-config-base#readme"
+}

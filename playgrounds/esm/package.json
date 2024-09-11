@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "review": "pnpm review:eslint",
+    "review:eslint": "eslint src --ext .ts",
+    "link:local": "rm -rf node_modules/@skg3n/eslint-config-base && pnpm install"
+  },
+  "devDependencies": {
+    "@skg3n/eslint-config-base": "file:../../.link",
+    "eslint": "^8.0.0",
+    "typescript": "~5.4.5"
+  }
+}
