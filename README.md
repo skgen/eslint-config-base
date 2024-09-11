@@ -3,7 +3,7 @@
 ## Install:
 
 ```sh
-pnpm add -D @skg3n/eslint-config-base eslint@^8.0.0
+pnpm add -D @skg3n/eslint-config-base eslint@^8.0.0 typescript@~5.4.5
 ```
 
 ```js
